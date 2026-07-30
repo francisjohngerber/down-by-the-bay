@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Down By the Bay · Jeffreys Bay Surf Rental</title>
+<meta name="description" content="A bright, recently renovated lagoon-side apartment in Kabeljauws, Jeffreys Bay — sleeps 4, with a braai balcony. Book on Airbnb, Booking.com, or direct with your host." />
+<link rel="stylesheet" href="styles.css" />
+<template id="__bundler_thumbnail" data-bg-color="#eef4f2">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#eef4f2"/>
+    <path d="M0 560 Q 300 480 600 560 T 1200 560 V 800 H 0 Z" fill="#bfe0d6"/>
+    <path d="M0 620 Q 300 560 600 620 T 1200 620 V 800 H 0 Z" fill="#8fc9b8"/>
+    <circle cx="870" cy="230" r="90" fill="#e8825a"/>
+    <path d="M0 640 L1200 640" stroke="#2f5d55" stroke-width="4" opacity="0.25"/>
+    <text x="600" y="740" font-family="Georgia, serif" font-size="46" fill="#2f5d55" text-anchor="middle">Down by the Bay</text>
+  </svg>
+</template>
+</head>
+<body data-theme="earthy">
+
+<!-- ============== NAV ============== -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Down By the Bay home">
+    <img class="brand-logo" src="images-web/logo.png" alt="Down by the Bay logo" />
+    <span class="brand-mark">• Down by the Bay •</span>
+    <span class="brand-sub">Jeffreys Bay</span>
+  </a>
+  <nav class="nav-links">
+    <a class="nlink" href="#space">The Space</a>
+    <a class="nlink" href="#gallery">Gallery</a>
+    <a class="nlink" href="#surf">The Area</a>
+    <a class="nlink" href="#reviews">Reviews</a>
+    <a class="btn btn-primary" href="#book">Check availability</a>
+  </nav>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero" id="top" data-screen-label="Hero">
+  <div class="hero-media">
+    <image-slot id="hero" fit="cover" src="images-web/hero-balcony-lagoon.jpg" placeholder="Drop your best lagoon / balcony photo — wide & bright works best"></image-slot>
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-inner wrap">
+    <span class="hero-loc">📍 Kabeljauws · Jeffreys Bay · South Africa</span>
+    <h1>Wake up to <em>lagoon</em> views.</h1>
+    <p class="hero-tag">A bright, recently renovated top-floor apartment steps from the Kabeljauws lagoon, park and beach — with a private braai balcony and J-Bay's world-class surf a short drive up the coast.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#book">Book your stay</a>
+      <a class="btn btn-light" href="#space">Take a look around</a>
+    </div>
+    <div class="hero-meta">
+      <span>Sleeps 4</span>
+      <span>2 bedrooms · 2 baths</span>
+      <span>80 m²</span>
+      <span>Lagoon views</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============== THE SPACE ============== -->
+<section class="sec" id="space" data-screen-label="The Space">
+  <div class="wrap about-grid reveal">
+    <div class="about-copy">
+      <span class="eyebrow">The Space</span>
+      <h2 style="font-size:clamp(2.1rem,5vw,3.4rem);margin-top:.4em;">Salt air, slow mornings, and a braai on the balcony.</h2>
+      <p class="lead">Down by the Bay is a relaxed, recently renovated two-bedroom apartment on the quiet Kabeljauws lagoon — made for couples, families, surfers and remote workers.</p>
+      <p>The open-plan living room opens onto a private top-floor balcony with a braai and lagoon views. There's a full kitchen, fast Wi-Fi, a clawfoot bath to soak in, secure parking, surfboard racks and even a little gym.</p>
+      <p>It's the laid-back, local side of J-Bay: swim, kayak or kite-surf on the lagoon, stroll to Pili Pili for lunch on the sand, and chase the famous Supertubes swell a short drive away.</p>
+    </div>
+    <div class="facts" aria-label="Key facts">
+      <div class="fact"><b>4</b><span>Guests</span></div>
+      <div class="fact"><b>2</b><span>Bedrooms</span></div>
+      <div class="fact"><b>2</b><span>Bathrooms</span></div>
+      <div class="fact"><b>300m</b><span>To Kabeljauws Beach</span></div>
+    </div>
+  </div>
+  <div class="wrap host-note reveal">
+    <img class="host-avatar" src="images-web/host-franco.jpg" alt="Franco, your host" />
+    <div class="host-body">
+      <span class="eyebrow">Your host · Franco</span>
+      <p>“J-Bay has always been my home away from home — a special place I keep coming back to. I love the outdoors, meeting new people and helping guests find the very best of the bay.”</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============== GALLERY ============== -->
+<section class="sec sec-panel" id="gallery" data-screen-label="Gallery">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The Gallery</span>
+      <h2>A look around the apartment.</h2>
+    </div>
+    <div class="gallery reveal">
+      <image-slot id="g1" class="g-big" src="images-web/bedroom-master.jpg" placeholder="Corner bedroom — lagoon view"></image-slot>
+      <image-slot id="g2" src="images-web/balcony-braai.jpg" placeholder="Balcony braai"></image-slot>
+      <image-slot id="g3" src="images-web/kitchen.jpg" placeholder="Kitchen / dining"></image-slot>
+      <image-slot id="g4" src="images-web/living-room.jpg" placeholder="Living room"></image-slot>
+      <image-slot id="g5" src="images-web/bedroom-twin.jpg" placeholder="Twin bedroom"></image-slot>
+      <image-slot id="g6" class="g-wide" src="images-web/balcony-view.jpg" placeholder="Kabeljauws lagoon & beach — wide"></image-slot>
+      <image-slot id="g7" class="g-wide" src="images-web/exterior-corner.jpg" placeholder="The building on the lagoon — wide"></image-slot>
+      <image-slot id="g8" class="g-big" src="images-web/living-surfboard.jpg" placeholder="Living room & lagoon view"></image-slot>
+      <image-slot id="g9" src="images-web/balcony-sunset.jpg" placeholder="Sunset on the balcony"></image-slot>
+      <image-slot id="g10" src="images-web/bathtub.jpg" placeholder="Clawfoot bathtub"></image-slot>
+      <image-slot id="g11" src="images-web/exterior-facade.jpg" placeholder="Curved balconies"></image-slot>
+      <image-slot id="g12" src="images-web/towel-basket.jpg" placeholder="Welcome touches"></image-slot>
+      <image-slot id="g13" class="g-wide" src="images-web/bathroom-shower.jpg" placeholder="Bathroom & shower — wide"></image-slot>
+      <image-slot id="g14" class="g-wide" src="images-web/parking-lagoon.jpg" placeholder="Private parking · unit 25 — wide"></image-slot>
+    </div>
+  </div>
+</section>
+
+<!-- ============== AMENITIES ============== -->
+<section class="sec" id="amenities" data-screen-label="Amenities">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Good to have</span>
+      <h2>Everything for an easy stay.</h2>
+    </div>
+    <div class="amen-grid reveal">
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19" r="1"/></svg></span><div><b>Free fast Wi-Fi</b><p>Throughout — work or stream with ease.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5S16 16 18 16s2-1.5 4-1.5"/><path d="M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5S16 20 18 20s2-1.5 4-1.5"/><circle cx="17" cy="7" r="3"/></svg></span><div><b>Lagoon views</b><p>Watch the water from your balcony.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3"/><path d="M5 9h14l-1 5a6 6 0 0 1-12 0Z"/><path d="M5 21h14"/></svg></span><div><b>Balcony braai</b><p>Private terrace with a braai &amp; seating.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h2"/></svg></span><div><b>Full kitchen</b><p>Dishwasher, washer/dryer, oven &amp; coffee.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="8" rx="2"/><path d="M7 11V8a5 5 0 0 1 10 0v3"/></svg></span><div><b>Free secure parking</b><p>Private, on-site &amp; gated.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17 17 3a3 3 0 0 1 4 4L7 21Z"/><path d="M11 9l4 4"/></svg></span><div><b>Surfboard racks</b><p>Plus a drying rack for wetsuits.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7v9a3 3 0 0 0 3 3h7"/><path d="M4 9h13a3 3 0 0 1 0 6h-1"/></svg></span><div><b>Clawfoot bathtub</b><p>A proper soak after the beach.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><div><b>Smart TV &amp; Netflix</b><p>Streaming + board games for downtime.</p></div></div>
+      <div class="amen"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M3 10l3-3 11 11-3 3zM2 13l2 2M20 8l2 2"/></svg></span><div><b>Basic gym</b><p>Available on request.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SURF & AROUND ============== -->
+<section class="sec sec-panel" id="surf" data-screen-label="Surf and around">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The Area</span>
+      <h2>The lagoon out front, Supers up the road.</h2>
+      <p>Down by the Bay sits in laid-back Kabeljauws — calm water and golden sand at the door, with J-Bay's world-class surf, restaurants and town a short drive away.</p>
+    </div>
+    <div class="surf-grid reveal" style="margin-top:40px;">
+      <div class="surf-aside">
+        <image-slot id="surfmap" src="images-web/lagoon-window.jpg" placeholder="Kabeljauws lagoon / beach photo"></image-slot>
+        <div class="do-list">
+          <span class="chip">Surfing</span>
+          <span class="chip">Kayaking</span>
+          <span class="chip">Kite-surfing</span>
+          <span class="chip">Dolphin &amp; whale watching</span>
+          <span class="chip">Lagoon swims</span>
+          <span class="chip">Sunset strolls</span>
+          <span class="chip">Garden Route</span>
+        </div>
+      </div>
+      <div class="spot-list">
+        <div class="spot"><span class="spot-no">01</span><div><b>Kabeljauws Beach &amp; Lagoon</b><small>Swim, kayak &amp; kite-surf right out front.</small></div><span class="dist">300 m</span></div>
+        <div class="spot"><span class="spot-no">02</span><div><b>Pili Pili</b><small>Beachfront restaurant on the golden sand.</small></div><span class="dist">5 min walk</span></div>
+        <div class="spot"><span class="spot-no">03</span><div><b>Point Beach</b><small>Quieter surf &amp; long beach walks.</small></div><span class="dist">2.2 km</span></div>
+        <div class="spot"><span class="spot-no">04</span><div><b>Kabeljous Nature Reserve</b><small>Lagoon trails &amp; birdlife.</small></div><span class="dist">2.4 km</span></div>
+        <div class="spot"><span class="spot-no">05</span><div><b>Supertubes</b><small>The famous world-class right-hand point.</small></div><span class="dist">Short drive</span></div>
+        <div class="spot"><span class="spot-no">06</span><div><b>J-Bay town</b><small>Surf shops, local markets &amp; restaurants.</small></div><span class="dist">5 km</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== REVIEWS ============== -->
+<section class="sec" id="reviews" data-screen-label="Reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Guest Notes · 10 / 10</span>
+      <h2>Rated exceptional by guests.</h2>
+    </div>
+    <div class="rev-feature reveal">
+      <figure class="rev rev-big">
+        <div class="stars" aria-label="5 out of 5">★★★★★</div>
+        <blockquote>“The property is literally on the beach lagoon — it's stunning, super clean, and just a short walk to all the other amenities. The host is so lovely.”</blockquote>
+        <figcaption><span class="avatar">V</span><span><b>Vuyo</b> · South Africa</span></figcaption>
+      </figure>
+      <div class="rev-score">
+        <div class="score-top"><b>10</b><span>Exceptional<small>1 review · Booking.com</small></span></div>
+        <ul class="score-list">
+          <li><span>Cleanliness</span><i>10</i></li>
+          <li><span>Location</span><i>10</i></li>
+          <li><span>Comfort</span><i>10</i></li>
+          <li><span>Facilities</span><i>10</i></li>
+          <li><span>Host</span><i>10</i></li>
+          <li><span>Value for money</span><i>10</i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== GOOD TO KNOW ============== -->
+<section class="sec sec-panel" id="good-to-know" data-screen-label="Good to know">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Good to know</span>
+      <h2>Before you book.</h2>
+    </div>
+    <div class="gtk-grid reveal">
+      <div class="gtk"><span>Check-in</span><b>2:00 PM – 7:00 PM</b><p>Let Franco know your arrival time in advance.</p></div>
+      <div class="gtk"><span>Check-out</span><b>By 10:00 AM</b><p>A relaxed morning before you go.</p></div>
+      <div class="gtk"><span>The whole place</span><b>Yours alone</b><p>80 m² apartment · sleeps 4 · 2 bed / 2 bath.</p></div>
+      <div class="gtk"><span>Damage deposit</span><b>ZAR 500</b><p>Cash on arrival, refunded after check-out.</p></div>
+      <div class="gtk"><span>Payment</span><b>Bank transfer</b><p>Before arrival — details sent after you book.</p></div>
+      <div class="gtk"><span>Quiet hours</span><b>10:00 PM – 6:00 AM</b><p>A peaceful, smoke-free home.</p></div>
+      <div class="gtk"><span>House rules</span><b>No parties · No pets</b><p>A quiet, smoke-free home by the sea.</p></div>
+      <div class="gtk"><span>Languages</span><b>Afrikaans &amp; English</b><p>Your host speaks both.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== BOOK ============== -->
+<section class="sec" id="book" data-screen-label="Book">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Book Your Stay</span>
+      <h2>Three easy ways to lock it in.</h2>
+      <p>Browse and book on the platform you trust — or message me directly for the best rate.</p>
+    </div>
+
+    <div class="book-grid reveal">
+      <!-- Airbnb -->
+      <div class="book-card">
+        <span class="platform">On Airbnb</span>
+        <h3>Book on Airbnb</h3>
+        <p>Instant booking with verified guest reviews and Airbnb's cover.</p>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Instant book</div>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Verified reviews</div>
+        <a class="btn btn-ghost" href="#" data-link="airbnb" target="_blank" rel="noopener">View on Airbnb →</a>
+      </div>
+
+      <!-- Booking.com -->
+      <div class="book-card">
+        <span class="platform">On Booking.com</span>
+        <h3>Book on Booking.com</h3>
+        <p>Free cancellation options on most stays — see live availability and rates.</p>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Flexible cancellation</div>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Reserve now, pay later</div>
+        <a class="btn btn-ghost" href="#" data-link="booking" target="_blank" rel="noopener">View on Booking.com →</a>
+      </div>
+
+      <!-- Direct -->
+      <div class="book-card feature">
+        <span class="book-tag">Best rate</span>
+        <span class="platform">Direct with your host</span>
+        <h3>Book direct &amp; save</h3>
+        <p>Skip the platform fees — message Franco directly for the best rate, flexible dates and local tips.</p>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Best price, guaranteed</div>
+        <div class="book-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Local tips from your host</div>
+        <div class="book-direct-actions">
+          <a class="btn btn-primary" href="#" data-link="phone">Call / SMS</a>
+          <a class="btn btn-ghost" href="#" data-link="email">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Direct enquiry -->
+    <div class="enquiry reveal" id="enquire">
+      <div>
+        <span class="eyebrow">Enquire directly</span>
+        <h3>Tell me about your trip.</h3>
+        <p>Send your dates and I'll come back within a day with availability and the direct rate.</p>
+        <div class="direct-contacts">
+          <a href="#" data-link="whatsapp-text">WhatsApp · +27 00 000 0000</a>
+          <a href="#" data-link="email-text">hello@downbythebay.co.za</a>
+        </div>
+      </div>
+      <form class="form-grid" id="enquiry-form" novalidate>
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" placeholder="Your name" required /></div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" placeholder="you@email.com" required /></div>
+        <div class="field"><label for="f-in">Check-in</label><input id="f-in" name="checkin" type="date" /></div>
+        <div class="field"><label for="f-out">Check-out</label><input id="f-out" name="checkout" type="date" /></div>
+        <div class="field"><label for="f-guests">Guests</label><input id="f-guests" name="guests" type="number" min="1" max="4" placeholder="2" /></div>
+        <div class="field"><label for="f-msg">Anything else?</label><input id="f-msg" name="message" type="text" placeholder="Surf trip, family stay…" /></div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send via WhatsApp</button>
+          <button class="btn btn-ghost" type="button" id="email-btn">Send via email</button>
+          <span class="form-note">Opens your messaging app — no account needed.</span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="foot" data-screen-label="Footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img class="foot-logo" src="images-web/logo.png" alt="Down by the Bay logo" />
+        <span class="brand-mark">• Down by the Bay •</span>
+        <p>A bright, lagoon-side apartment in Kabeljauws, Jeffreys Bay.</p>
+        <a class="ig" href="#" data-link="instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          @downbythebay.jbay
+        </a>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Explore</h4>
+          <a href="#space">The Space</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#surf">The Area</a>
+          <a href="#reviews">Reviews</a>
+        </div>
+        <div class="foot-col">
+          <h4>Book</h4>
+          <a href="#" data-link="airbnb" target="_blank" rel="noopener">Airbnb</a>
+          <a href="#" data-link="booking" target="_blank" rel="noopener">Booking.com</a>
+          <a href="#enquire">Book direct</a>
+        </div>
+        <div class="foot-col">
+          <h4>Find us</h4>
+          <a href="#" data-link="map" target="_blank" rel="noopener">Kabeljauws, Jeffreys Bay</a>
+          <a href="#" data-link="whatsapp-text">WhatsApp</a>
+          <a href="#" data-link="email-text">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Down by the Bay · Jeffreys Bay, South Africa</span>
+      <span>34.0507° S, 24.9281° E</span>
+    </div>
+  </div>
+</footer>
+
+<div id="tweaks-root"></div>
+
+<script src="image-slot.js"></script>
+<script src="gallery-lightbox.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
