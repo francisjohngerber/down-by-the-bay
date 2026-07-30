@@ -428,6 +428,8 @@ image-slot {
   --is-bg: var(--panel-2);
   border-radius: var(--radius-sm);
   background: color-mix(in oklch, var(--primary) 7%, var(--bg));
+}
+image-slot:not([data-filled]) {
   border: 1.5px dashed color-mix(in oklch, var(--primary) 34%, var(--line));
 }
 .hero-media image-slot { border-radius: 0; border: none; background: var(--panel-2); }
